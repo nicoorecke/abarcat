@@ -1,10 +1,111 @@
 export default function Home() {
   return (
-    <main>
-      <h1>Empresa de Servicios Tecnológicos</h1>
-      <p>
-        Desarrollamos sitios web, aplicaciones y soluciones digitales a medida.
-      </p>
+    <main style={{ fontFamily: "sans-serif", padding: "40px", maxWidth: "900px", margin: "0 auto" }}>
+      
+      {/* HERO */}
+      <header style={{ marginBottom: "50px" }}>
+        <h1 style={{ fontSize: "42px", marginBottom: "15px" }}>
+          Profesionalizá tu proyecto
+        </h1>
+      </header>
+
+      {/* SERVICIO 1 */}
+      <section style={{ marginBottom: "40px" }}>
+        <h2 style={{ fontSize: "26px", marginBottom: "10px" }}>
+          🌐 Presencia digital y páginas web
+        </h2>
+
+        <p style={{ marginBottom: "15px" }}>
+          Diseñamos sitios modernos, rápidos y optimizados para convertir visitas en clientes.
+        </p>
+
+        <ul>
+          <li>✔ Web institucional</li>
+          <li>✔ Landing pages de venta</li>
+          <li>✔ Ecommerce y catálogos online</li>
+          <li>✔ Diseño responsive (celular + PC)</li>
+          <li>✔ Integración con WhatsApp y redes</li>
+        </ul>
+      </section>
+
+      {/* SERVICIO 2 */}
+      <section style={{ marginBottom: "40px" }}>
+        <h2 style={{ fontSize: "26px", marginBottom: "10px" }}>
+          ⚙️ Software y automatización
+        </h2>
+
+        <p style={{ marginBottom: "15px" }}>
+          Transformamos procesos manuales en sistemas simples y eficientes.
+        </p>
+
+        <ul>
+          <li>✔ Automatización de tareas repetitivas</li>
+          <li>✔ Sistemas internos a medida</li>
+          <li>✔ Integración con APIs y plataformas</li>
+          <li>✔ Digitalización de Excel a aplicaciones reales</li>
+          <li>✔ Soluciones para operaciones y gestión</li>
+        </ul>
+      </section>
+
+      {/* SERVICIO 3 */}
+      <section style={{ marginBottom: "40px" }}>
+        <h2 style={{ fontSize: "26px", marginBottom: "10px" }}>
+          📊 Datos, dashboards e inteligencia
+        </h2>
+
+        <p style={{ marginBottom: "15px" }}>
+          Convertimos información en decisiones con reportes claros y monitoreo en tiempo real.
+        </p>
+
+        <ul>
+          <li>✔ Dashboards Power BI y tableros web</li>
+          <li>✔ Indicadores y reportes automáticos</li>
+          <li>✔ Análisis para empresas industriales</li>
+          <li>✔ Modelos predictivos y optimización</li>
+        </ul>
+      </section>
+
+      {/* SERVICIO 4 */}
+      <section style={{ marginBottom: "60px" }}>
+        <h2 style={{ fontSize: "26px", marginBottom: "10px" }}>
+          🤝 Consultoría tecnológica
+        </h2>
+
+        <p style={{ marginBottom: "15px" }}>
+          Te ayudamos a elegir e implementar la solución correcta, sin gastar de más.
+        </p>
+
+        <ul>
+          <li>✔ Asesoramiento estratégico IT</li>
+          <li>✔ Arquitectura de sistemas</li>
+          <li>✔ Modernización de procesos</li>
+          <li>✔ Implementación por etapas</li>
+          <li>✔ Soporte continuo</li>
+        </ul>
+      </section>
+
+      {/* CTA FINAL */}
+      <footer style={{ padding: "30px", borderTop: "1px solid #ddd" }}>
+        <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>
+          🚀 Trabajemos juntos
+        </h2>
+
+        <p style={{ marginBottom: "20px" }}>
+          ¿Querés una web que venda, un sistema que ahorre tiempo o una solución tecnológica completa?
+        </p>
+
+        <button
+          style={{
+            padding: "12px 20px",
+            fontSize: "16px",
+            borderRadius: "8px",
+            border: "none",
+            cursor: "pointer",
+          }}
+        >
+          Contactanos
+        </button>
+      </footer>
     </main>
-  )
+  );
 }
