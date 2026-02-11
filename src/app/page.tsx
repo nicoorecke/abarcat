@@ -4,14 +4,14 @@ export default function Home() {
       
       {/* HERO */}
       <header style={{ marginBottom: "20px" }}>
-        <h1 style={{ fontSize: "42px", }}>
+        <h1>
           Profesionalizá tu proyecto
         </h1>
       </header>
 
       {/* SERVICIO 1 */}
       <section className="seccion_1">
-        <h2 style={{ fontSize: "26px"}}>
+        <h2>
           🌐 Presencia digital y páginas web
         </h2>
 
@@ -30,7 +30,7 @@ export default function Home() {
 
       {/* SERVICIO 2 */}
       <section>
-        <h2 style={{ fontSize: "26px"}}>
+        <h2>
           ⚙️ Software y automatización
         </h2>
 
@@ -49,7 +49,7 @@ export default function Home() {
 
       {/* SERVICIO 3 */}
       <section className="seccion_1">
-        <h2 style={{ fontSize: "26px"}}>
+        <h2>
           📊 Datos, dashboards e inteligencia
         </h2>
 
@@ -67,7 +67,7 @@ export default function Home() {
 
       {/* SERVICIO 4 */}
       <section style={{ marginBottom: "40px" }}>
-        <h2 style={{ fontSize: "26px"}}>
+        <h2>
           🤝 Consultoría tecnológica
         </h2>
 
