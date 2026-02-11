@@ -3,7 +3,7 @@ export default function Home() {
     <main className="container2" style={{  margin: "0" }}>
       
       {/* HERO */}
-      <header style={{ marginBottom: "20px" }}>
+      <header>
         <h1>
           Profesionalizá tu proyecto
         </h1>

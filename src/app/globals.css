@@ -40,6 +40,11 @@ h2 {
   font-size: 2rem;
 }
 
+header {
+  margin-bottom: 20px;
+}
+
+
 li {
   list-style: none;
 }
@@ -115,7 +120,22 @@ li {
   cursor: pointer;
 }
 
+section {
+  padding: 10 0 10 0;
+}
+
+.seccion_1 {
+  background-color: #1e293b;
+}
+
+.seccion_2 {
+  background-color: #1e293b;
+}
+
 @media (max-width: 768px) {
+header {
+  margin-bottom: 0;
+}
 
   h2 {
   font-size:1.5rem;
@@ -159,4 +179,13 @@ li {
   .nav-links.active {
     display: flex;
   }
+
+  .section_1 {
+    padding: 10
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
 }
