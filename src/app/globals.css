@@ -27,7 +27,7 @@ html, body {
   max-width: 100%;
 }
 
-h1 {
+section h1 {
   margin-top: 20px;
 }
 
@@ -59,6 +59,7 @@ li {
 .logo {
   display: flex;
   align-items: center;
+  margin: 0;
 }
 
 .logo img {
