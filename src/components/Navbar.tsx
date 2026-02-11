@@ -14,10 +14,10 @@ export default function Navbar() {
       <div className="navbar-container">
         
         {/* LOGO */}
-        <div className="logo">
+        <Link href="/" className="logo">
           <img src="/abarcat.svg" alt="Logo Abarcat" />
           <h1 className="loguillo">ABARCAT</h1>
-        </div>
+        </Link>
 
         {/* BOTÓN HAMBURGUESA */}
         <button
