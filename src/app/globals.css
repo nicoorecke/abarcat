@@ -15,14 +15,20 @@ html, body {
 
 /* Contenedor general */
 .container {
-  max-width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding: 3rem 1.5rem;
+  align-items: center;
 }
 
-.container  p{
-  max-width: 1100px;
+
+
+.container2{
+  max-width: 100%;
+}
+
+h1 {
+  margin-top: 20px;
 }
 
 /* Navbar */
@@ -40,6 +46,11 @@ html, body {
   justify-content: space-between;
   align-items: center;
 }
+
+li {
+  list-style: none;
+}
+
 .loguillo {
   font-family: "Montserrat";
   font-weight: 300}
@@ -84,9 +95,18 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  margin-bottom: 0.8rem;
 }
 
-p {
-  max-width: 700px;
+
+
+.seccion_1 {
+  background-color: #122e49;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+section {
+  padding-top: 10px;
+  padding-bottom: 15px;
 }

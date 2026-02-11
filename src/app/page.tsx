@@ -1,40 +1,40 @@
 export default function Home() {
   return (
-    <main style={{ fontFamily: "sans-serif", padding: "40px", maxWidth: "900px", margin: "0 auto" }}>
+    <main className="container2" style={{  margin: "0" }}>
       
       {/* HERO */}
-      <header style={{ marginBottom: "50px" }}>
-        <h1 style={{ fontSize: "42px", marginBottom: "15px" }}>
+      <header style={{ marginBottom: "20px" }}>
+        <h1 style={{ fontSize: "42px", }}>
           Profesionalizá tu proyecto
         </h1>
       </header>
 
       {/* SERVICIO 1 */}
-      <section style={{ marginBottom: "40px" }}>
-        <h2 style={{ fontSize: "26px", marginBottom: "10px" }}>
+      <section className="seccion_1">
+        <h2 style={{ fontSize: "26px"}}>
           🌐 Presencia digital y páginas web
         </h2>
 
-        <p style={{ marginBottom: "15px" }}>
+        <p >
           Diseñamos sitios modernos, rápidos y optimizados para convertir visitas en clientes.
         </p>
 
         <ul>
           <li>✔ Web institucional</li>
-          <li>✔ Landing pages de venta</li>
+          <li>✔ Landing pages para venta</li>
           <li>✔ Ecommerce y catálogos online</li>
-          <li>✔ Diseño responsive (celular + PC)</li>
+          <li>✔ Diseño Mobile First (celular + PC)</li>
           <li>✔ Integración con WhatsApp y redes</li>
         </ul>
       </section>
 
       {/* SERVICIO 2 */}
-      <section style={{ marginBottom: "40px" }}>
-        <h2 style={{ fontSize: "26px", marginBottom: "10px" }}>
+      <section>
+        <h2 style={{ fontSize: "26px"}}>
           ⚙️ Software y automatización
         </h2>
 
-        <p style={{ marginBottom: "15px" }}>
+        <p >
           Transformamos procesos manuales en sistemas simples y eficientes.
         </p>
 
@@ -48,12 +48,12 @@ export default function Home() {
       </section>
 
       {/* SERVICIO 3 */}
-      <section style={{ marginBottom: "40px" }}>
-        <h2 style={{ fontSize: "26px", marginBottom: "10px" }}>
+      <section className="seccion_1">
+        <h2 style={{ fontSize: "26px"}}>
           📊 Datos, dashboards e inteligencia
         </h2>
 
-        <p style={{ marginBottom: "15px" }}>
+        <p >
           Convertimos información en decisiones con reportes claros y monitoreo en tiempo real.
         </p>
 
@@ -66,12 +66,12 @@ export default function Home() {
       </section>
 
       {/* SERVICIO 4 */}
-      <section style={{ marginBottom: "60px" }}>
-        <h2 style={{ fontSize: "26px", marginBottom: "10px" }}>
+      <section style={{ marginBottom: "40px" }}>
+        <h2 style={{ fontSize: "26px"}}>
           🤝 Consultoría tecnológica
         </h2>
 
-        <p style={{ marginBottom: "15px" }}>
+        <p >
           Te ayudamos a elegir e implementar la solución correcta, sin gastar de más.
         </p>
 
@@ -86,7 +86,7 @@ export default function Home() {
 
       {/* CTA FINAL */}
       <footer style={{ padding: "30px", borderTop: "1px solid #ddd" }}>
-        <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>
+        <h2 style={{ fontSize: "24px"}}>
           🚀 Trabajemos juntos
         </h2>
 
